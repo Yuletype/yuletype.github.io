@@ -1,0 +1,62 @@
+#day2 {
+    & {
+        text-align: center;
+        @include linear-gradient(to bottom, #c4ccc8, #d4d8cb);
+    }
+
+    .art {
+        width: 100%;
+    }
+
+    h1 {
+        display: block;
+        font-size: 72px;
+        text-transform: uppercase;
+        color: #e8e8e8;
+        @media screen and (max-width: 500px) {
+            font-size: 50px;
+        }
+    }
+
+    h2 {
+        margin: 0;
+        color: #2d302e;
+        font-size: 26px;
+        @media screen and (max-width: 500px) {
+            font-size: 18px;
+        }
+    }
+
+    .title-container {
+        position: relative;
+    }
+
+    .title {
+        display: block;
+        width: 90%;
+        margin-top: -1.5px;
+        margin-left: -1.5px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        z-index: 2;
+        background: -webkit-linear-gradient(to bottom, #e8e8e8 10%, #ccd2c9 80%);
+        @include transform(translateX(-50%));
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+    }
+
+    .title-shadow {
+        display: block;
+        width: 100%;
+        position: relative;
+        bottom: -1.5px;
+        right: -1.5px;
+        color: #2d302e;
+        background: -webkit-linear-gradient(to bottom, #2d302e 10%, #ccd2c9 80%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+}
