@@ -4,6 +4,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Radley:400,400italic);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
+@import url(https://fonts.googleapis.com/css?family=Oswald|Podkova);
 
 /*
     Classes
@@ -20,4 +21,12 @@
 .radley-italic {
   font-family: "Radley",sans-serif;
   font-style: italic;
+}
+
+.oswald {
+  font-family: 'Oswald', sans-serif;
+}
+
+.podkova {
+  font-family: 'Podkova', serif;
 }
