@@ -1,7 +1,8 @@
 #day1 {
     background: white;
-    background-image: url(http://cdn.imgs.tuts.dragoart.com/how-to-draw-anime-santa-clause_1_000000018880_5.png);
-    background-size: 100% 100%;
+    background-image: url(/images/bg-01-santa.png);
+    background-size: cover;
+    background-position: center center;
     &.panel > .art {
       .ubuntu-mono {
         text-align: center;
