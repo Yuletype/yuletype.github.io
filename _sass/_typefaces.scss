@@ -1,0 +1,23 @@
+/*
+    Imports
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Radley:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
+
+/*
+    Classes
+*/
+
+.ubuntu-mono {
+  font-family: "Ubuntu mono",sans-serif;
+  font-style: normal;
+  &.reg {
+    font-weight: 400;
+  }
+}
+
+.radley-italic {
+  font-family: "Radley",sans-serif;
+  font-style: italic;
+}
