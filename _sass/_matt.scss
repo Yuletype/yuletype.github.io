@@ -40,7 +40,7 @@
         top: 0;
         left: 50%;
         z-index: 2;
-        background: -webkit-linear-gradient(to bottom, #e8e8e8 10%, #ccd2c9 80%);
+        background: -webkit-linear-gradient(#e8e8e8 10%, #ccd2c9 80%);
         @include transform(translateX(-50%));
         -webkit-text-fill-color: transparent;
         -moz-text-fill-color: transparent;
@@ -55,7 +55,7 @@
         bottom: -1.5px;
         right: -1.5px;
         color: #2d302e;
-        background: -webkit-linear-gradient(to bottom, #2d302e 10%, #ccd2c9 80%);
+        background: -webkit-linear-gradient(#2d302e 10%, #ccd2c9 80%);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     }
