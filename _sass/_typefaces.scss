@@ -5,6 +5,8 @@
 @import url(https://fonts.googleapis.com/css?family=Radley:400,400italic);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
 @import url(https://fonts.googleapis.com/css?family=Oswald|Podkova);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC:400italic);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700);
 
 /*
     Classes
@@ -29,4 +31,14 @@
 
 .podkova {
   font-family: 'Podkova', serif;
+}
+
+.playfair {
+    font-family: 'Playfair Display SC', serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.pt-sans {
+    font-family: 'PT Sans Narrow', sans-serif;
 }

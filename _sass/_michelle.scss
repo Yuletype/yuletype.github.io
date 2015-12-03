@@ -1,0 +1,110 @@
+#day3 {
+    @include background-image(linear-gradient(#383E6C, #8D6771));
+
+    text-align: center;
+    color: white;
+    &.panel > .art {
+        width: 100%;
+        .pt-sans {
+            font-size: 24px;
+            line-height: 24px;
+            letter-spacing: 20px;
+            text-transform: uppercase;
+            &.small {
+                font-size: 14px;
+                color: rgba(255,255,255,0.3);
+                letter-spacing: 5px;
+                margin-top: 10vh;
+            }
+        }
+        .playfair {
+            font-size: 120px;
+            line-height: 140px;
+        }
+    }
+}
+
+.word {
+    width: 100%;
+    span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+.pt-sans-push {
+    margin-top: 14px;
+}
+
+.moons {
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+    display: inline-block;
+    margin: 0 30px;
+    @include transform(translateY(8px));
+    &.phase1 {
+        background-image: url(/images/moons/phase1.png);
+    }
+    &.phase2 {
+        background-image: url(/images/moons/phase2.png);
+    }
+    &.phase3 {
+        background-image: url(/images/moons/phase3.png);
+    }
+    &.phase4 {
+        background-image: url(/images/moons/phase4.png);
+    }
+    &.phase5 {
+        background-image: url(/images/moons/phase5.png);
+    }
+    &.phase6 {
+        background-image: url(/images/moons/phase6.png);
+    }
+    &.phase7 {
+        background-image: url(/images/moons/phase7.png);
+    }
+    &.phase8 {
+        background-image: url(/images/moons/phase8.png);
+    }
+    &.phase9 {
+        background-image: url(/images/moons/phase9.png);
+    }
+    &.phase10 {
+        background-image: url(/images/moons/phase10.png);
+    }
+    &.phase11 {
+        background-image: url(/images/moons/phase11.png);
+    }
+    &.phase12 {
+        background-image: url(/images/moons/phase12.png);
+    }
+    &.phase13 {
+        background-image: url(/images/moons/phase13.png);
+    }
+    &.phase14 {
+        background-image: url(/images/moons/phase14.png);
+    }
+    &.phase15 {
+        background-image: url(/images/moons/phase15.png);
+    }
+    &.phase16 {
+        background-image: url(/images/moons/phase16.png);
+    }
+}
+
+.while {
+    @include transform(translateX(-26px));
+}
+
+.moon {
+    @include transform(translateX(-15px));
+}
+
+.the-push {
+    margin-top: 22px;
+}
+
+.bright {
+    @include transform(translateX(-28px));
+}
