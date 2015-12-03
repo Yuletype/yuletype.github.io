@@ -42,3 +42,18 @@
 .pt-sans {
     font-family: 'PT Sans Narrow', sans-serif;
 }
+
+.jaf-herb {
+    font-family: "jaf-herb-condensed",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.proxima-nova {
+    font-family: "proxima-nova",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    &.black {
+        font-weight: 900;
+    }
+}
