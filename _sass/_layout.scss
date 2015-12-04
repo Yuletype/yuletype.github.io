@@ -15,21 +15,20 @@ body {
     }
 }
 
-header {
+#header {
     height: 60vh;
     position: relative;
-}
+    h1 {
+        font-size: 18px;
+        margin: 0 0 10px 0;
+    }
 
-h1 {
-    font-size: 18px;
-    margin: 0 0 10px 0;
-}
-
-p {
-    font-size: 14px;
-    line-height: 21px;
-    max-width: 55%;
-    margin: 0;
+    p {
+        font-size: 14px;
+        line-height: 21px;
+        max-width: 55%;
+        margin: 0;
+    }
 }
 
 .calendar {
