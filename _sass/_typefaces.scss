@@ -7,6 +7,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald|Podkova);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC:400italic);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
 
 /*
     Classes
@@ -55,5 +56,17 @@
     font-weight: 400;
     &.black {
         font-weight: 900;
+    }
+}
+
+.quicksand{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.league-gothic {
+    font-family: "league-gothic",sans-serif;
+    font-style: normal;
+    &.reg {
+        font-weight: 400;
     }
 }
