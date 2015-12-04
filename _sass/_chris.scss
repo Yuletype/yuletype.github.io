@@ -4,25 +4,26 @@
     background-size: cover;
     background-position: center center;
     &.panel > .art {
-      .ubuntu-mono {
-        text-align: center;
-        font-size:40px;
-        color: #BA9668;
-        background-blend-mode: multiply;
-        margin:0;
-      }
+        width: 100%;
+        .ubuntu-mono {
+            text-align: center;
+            font-size:40px;
+            color: #BA9668;
+            background-blend-mode: multiply;
+            margin:0;
+        }
 
-      .radley-italic {
-        text-align: center;
-        font-size: 144px;
-        color: #FF0000;
-        background-blend-mode: multiply;
-        margin:0 0 30px 0;
-      }
+        .radley-italic {
+            text-align: center;
+            font-size: 144px;
+            color: #FF0000;
+            background-blend-mode: multiply;
+            margin:0 0 30px 0;
+        }
 
-      .underline {
-        border-bottom: 6px solid #FF0000;
-        padding: 0 0 10px 0;
-      }
+        .underline {
+            border-bottom: 6px solid #FF0000;
+            padding: 0 0 10px 0;
+        }
     }
 }

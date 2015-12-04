@@ -1,3 +1,6 @@
 body {
     -webkit-font-smoothing: antialiased;
+    &.animate {
+        @include transition(transform 0.2s ease-out);
+    }
 }
