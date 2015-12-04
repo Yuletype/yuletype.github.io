@@ -1,0 +1,20 @@
+#day7 {
+    background-image: url(/images/digital-camo.jpg);
+    &.panel > .art {
+        // where you can art
+        width: 100%;
+        text-align: center;
+        .league-gothic {
+            font-size: 300px;
+            letter-spacing:.04em;
+            color: #DD022B;
+            margin:10px;
+        }
+        .quicksand{
+            font-size: 22px;
+            letter-spacing: .07em;
+            color: #737A14;
+            margin: 5px;
+        }
+    }
+}
