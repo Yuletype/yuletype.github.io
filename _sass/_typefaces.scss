@@ -8,6 +8,7 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC:400italic);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700);
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700italic,700);
 
 /*
     Classes
@@ -57,6 +58,12 @@
     &.black {
         font-weight: 900;
     }
+}
+
+.lora {
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .quicksand{
