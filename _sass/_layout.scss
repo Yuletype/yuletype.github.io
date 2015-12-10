@@ -17,7 +17,17 @@ body {
 
 #header {
     height: 60vh;
+    background: url('../images/header-bg.png') no-repeat center center #004B4E;
     position: relative;
+    padding: 30px 0;
+
+    .yuletype-logo {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        @include transform(translateX(-50%) translateY(-50%));
+    }
+
     h1 {
         font-size: 18px;
         margin: 0 0 10px 0;
