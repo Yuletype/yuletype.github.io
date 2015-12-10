@@ -10,6 +10,7 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700italic,700);
 @import url(https://fonts.googleapis.com/css?family=Black+Ops+One);
+@import url(https://fonts.googleapis.com/css?family=Bitter);
 
 /*
     Classes
@@ -81,4 +82,12 @@
 
 .black-ops{
   font-family: 'Black Ops One', cursive;
+}
+
+.bitter {
+  font-family: "bitter",serif;
+  font-style: normal;
+  &.reg {
+    font-weight: 400;
+  }
 }
