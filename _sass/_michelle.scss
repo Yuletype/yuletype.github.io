@@ -22,89 +22,144 @@
             line-height: 140px;
         }
     }
-}
 
-.word {
-    width: 100%;
-    span {
+    .word {
+        width: 100%;
+        span {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+
+    .pt-sans-push {
+        margin-top: 14px;
+    }
+
+    .moons {
+        width: 16px;
+        height: 16px;
+        background-size: cover;
         display: inline-block;
-        vertical-align: middle;
+        margin: 0 30px;
+        @include transform(translateY(8px));
+        &.phase1 {
+            background-image: url(/images/moons/phase1.png);
+        }
+        &.phase2 {
+            background-image: url(/images/moons/phase2.png);
+        }
+        &.phase3 {
+            background-image: url(/images/moons/phase3.png);
+        }
+        &.phase4 {
+            background-image: url(/images/moons/phase4.png);
+        }
+        &.phase5 {
+            background-image: url(/images/moons/phase5.png);
+        }
+        &.phase6 {
+            background-image: url(/images/moons/phase6.png);
+        }
+        &.phase7 {
+            background-image: url(/images/moons/phase7.png);
+        }
+        &.phase8 {
+            background-image: url(/images/moons/phase8.png);
+        }
+        &.phase9 {
+            background-image: url(/images/moons/phase9.png);
+        }
+        &.phase10 {
+            background-image: url(/images/moons/phase10.png);
+        }
+        &.phase11 {
+            background-image: url(/images/moons/phase11.png);
+        }
+        &.phase12 {
+            background-image: url(/images/moons/phase12.png);
+        }
+        &.phase13 {
+            background-image: url(/images/moons/phase13.png);
+        }
+        &.phase14 {
+            background-image: url(/images/moons/phase14.png);
+        }
+        &.phase15 {
+            background-image: url(/images/moons/phase15.png);
+        }
+        &.phase16 {
+            background-image: url(/images/moons/phase16.png);
+        }
+    }
+
+    .while {
+        @include transform(translateX(-26px));
+    }
+
+    .moon {
+        @include transform(translateX(-15px));
+    }
+
+    .the-push {
+        margin-top: 22px;
+    }
+
+    .bright {
+        @include transform(translateX(-28px));
     }
 }
 
-.pt-sans-push {
-    margin-top: 14px;
-}
+#day10 {
+    $day10-bg: #E0F5FF;
+    $day10-text: #00D687;
+    $day10-bgtext: #39FFF7;
 
-.moons {
-    width: 16px;
-    height: 16px;
-    background-size: cover;
-    display: inline-block;
-    margin: 0 30px;
-    @include transform(translateY(8px));
-    &.phase1 {
-        background-image: url(/images/moons/phase1.png);
+    & {
+        background-color: $day10-bg;
     }
-    &.phase2 {
-        background-image: url(/images/moons/phase2.png);
-    }
-    &.phase3 {
-        background-image: url(/images/moons/phase3.png);
-    }
-    &.phase4 {
-        background-image: url(/images/moons/phase4.png);
-    }
-    &.phase5 {
-        background-image: url(/images/moons/phase5.png);
-    }
-    &.phase6 {
-        background-image: url(/images/moons/phase6.png);
-    }
-    &.phase7 {
-        background-image: url(/images/moons/phase7.png);
-    }
-    &.phase8 {
-        background-image: url(/images/moons/phase8.png);
-    }
-    &.phase9 {
-        background-image: url(/images/moons/phase9.png);
-    }
-    &.phase10 {
-        background-image: url(/images/moons/phase10.png);
-    }
-    &.phase11 {
-        background-image: url(/images/moons/phase11.png);
-    }
-    &.phase12 {
-        background-image: url(/images/moons/phase12.png);
-    }
-    &.phase13 {
-        background-image: url(/images/moons/phase13.png);
-    }
-    &.phase14 {
-        background-image: url(/images/moons/phase14.png);
-    }
-    &.phase15 {
-        background-image: url(/images/moons/phase15.png);
-    }
-    &.phase16 {
-        background-image: url(/images/moons/phase16.png);
-    }
-}
 
-.while {
-    @include transform(translateX(-26px));
-}
+    .text-box {
+        display: block;
+        width: 700px;
+        height: 600px;
+        position: relative;
 
-.moon {
-    @include transform(translateX(-15px));
-}
+        border: 5px solid  $day10-text;
 
-.the-push {
-    margin-top: 22px;
-}
+        font-size: 24px;
+        // line-height: 100px;
+        text-transform: uppercase;
+        color: $day10-text;
+        // text-align: center;
+    }
 
-.bright {
-    @include transform(translateX(-28px));
+    .text {
+        display: inline-block;
+        line-height: 100px;
+        // text-align: left;
+    }
+
+    .ln1, .ln2, .ln3, .ln4, .ln5 {
+        display: inline-block;
+    }
+
+    .ln1 {
+        letter-spacing: 16.8px;
+    }
+
+    .ln2 {
+        letter-spacing: 18.6px;
+    }
+
+    .ln3 {
+        letter-spacing: 21.1px;
+    }
+
+    .ln4 {
+        letter-spacing: 21.2px;
+    }
+
+    .ln5 {
+        letter-spacing: 16px;
+    }
 }
