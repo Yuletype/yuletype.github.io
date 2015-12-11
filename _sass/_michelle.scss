@@ -121,26 +121,22 @@
     .text-box {
         display: block;
         width: 700px;
-        // height: 600px;
         position: relative;
 
         border: 5px solid  $day10-text;
-
         font-size: 24px;
-        // line-height: 100px;
         text-transform: uppercase;
         color: $day10-text;
-        // text-align: center;
+        text-align: center;
+        z-index: 10;
     }
 
     .text {
         display: inline-block;
+        padding-top: 44px;
+        padding-bottom: 44px;
         line-height: 100px;
-        // text-align: left;
-    }
-
-    .ln1, .ln2, .ln3, .ln4, .ln5 {
-        display: inline-block;
+        text-align: left;
     }
 
     .ln1 {
@@ -152,7 +148,7 @@
     }
 
     .ln3 {
-        letter-spacing: 21.1px;
+        letter-spacing: 20.8px;
     }
 
     .ln4 {
@@ -161,5 +157,33 @@
 
     .ln5 {
         letter-spacing: 16px;
+    }
+
+    .s, .e1, .e2 {
+        position: absolute;
+        font-size: 500px;
+        color: $day10-bgtext;
+        line-height: 0;
+        top: 0;
+        left: 0;
+        text-transform: uppercase;
+        opacity: 0.14;
+    }
+
+    .s {
+        top: 116px;
+        left: -139px;
+    }
+
+    .e1 {
+        top: initial;
+        left: 225px;
+        bottom: 101px;
+    }
+
+    .e2 {
+        left: initial;
+        top: 226px;
+        right: -74px;
     }
 }
