@@ -8,7 +8,7 @@ body {
     top: 0;
     left: 0;
     @include size(100%);
-    background: green;
+    background: #004B4E;
     z-index: 1000;
     text-align: center;
     .content {
@@ -20,12 +20,15 @@ body {
     h1 {
         color: white;
         margin: 0;
-        font-size: 18px;
+        font-size: 40px;
+        text-transform: uppercase;
+        letter-spacing: .2em;
     }
     p {
         font-size: 16px;
         margin: 10px;
         color: white;
+        letter-spacing: .06em;
     }
     @media screen and (min-width: 768px) {
         display: none;
