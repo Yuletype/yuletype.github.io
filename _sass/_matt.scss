@@ -64,3 +64,65 @@
         -webkit-background-clip: text;
     }
 }
+
+#day10 {
+    $vermillion: #da2a08;
+    $text-shadow: rgba(0,0,0,0.4);
+    background-color: #fff6e0;
+    @include linear-gradient(#fff6e0 10%, #fffcf5 20%, #fffcf5 90%, #fff6e0 100%);
+
+    &.animating {
+        .letter {
+            @include animation(smoke 10s ease-in-out infinite);
+        }
+    }
+
+    .text {
+        font-size: 40px;
+        line-height: 60px;
+        color: #353535;
+        perspective: 250px;
+        border-bottom: 4px double black;
+        border-top: 4px double black;
+    }
+
+    .letter {
+        display: inline-block;
+        text-shadow: 0 0 0 $text-shadow;
+    }
+
+    .line-1 {
+        letter-spacing: 5.9px;
+    }
+
+    .line-2 {
+        letter-spacing: 1.1px;
+    }
+
+    .line-4 {
+        letter-spacing: 3.6px;
+    }
+
+    @include keyframes('smoke') {
+        0% {
+            @include transform(translate3d(0,0,0));
+            opacity: 1;
+            text-shadow: 0 0 0 $text-shadow;
+        }
+        40% {
+            @include transform(translate3d(0, -25px, -10px));
+            opacity: 0.5;
+            text-shadow: 0 26px 10px $text-shadow;
+        }
+        50% {
+            @include transform(translate3d(0, -25px, -14px));
+            opacity: 0.4;
+            text-shadow: 0 26px 14px $text-shadow;
+        }
+        100% {
+            @include transform(translate3d(0,0,0));
+            opacity: 1;
+            text-shadow: 0 0 0 $text-shadow;
+        }
+    }
+}
