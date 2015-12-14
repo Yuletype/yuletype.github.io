@@ -11,7 +11,12 @@ layout: default
     </div>
 </div>
 <header id="header">
-    <img class="yuletype-logo" src="./images/yuletype-logo.svg">
+    <div class="yuletype-logo__wrapper">
+        <img class="yuletype-logo" src="./images/yuletype-logo.svg">
+        <button class="md-trigger" data-modal="modal">
+            <img src="/images/modal-open.svg" alt="About Yule Type Log">
+        </button>
+    </div>
 </header>
 <section id="days">
     <div id="day1" class="panel">
@@ -163,5 +168,22 @@ layout: default
         </div>
         <script src="/scripts/day10.js"></script>
     </div>
-
 </section>
+
+<div class="md-modal md-effect-12" id="modal">
+    <div class="md-content">
+        <img class="mobelux-logo" src="images/mobelux-logo.svg" alt="mobelux logo">
+        <h3>YuleType</h3>
+        <div>
+            <p>At Mobelux, we take pride in our ability to blend really great software with really great design, but pulling it off means our designers and developers have to speak each other's language. This holiday season, we're celebrating by getting the family together for 25 days of typographic experimentation. Each day will feature a type experiment with a holiday theme, fully designed and coded by an individual designer or developer.</p>
+            <button class="md-close">
+                <img src="/images/modal-close.svg" alt="Dismiss">
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="md-overlay"></div>
+
+<script src="/scripts/classie.js"></script>
+<script src="/scripts/modal-effects.js"></script>
