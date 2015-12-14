@@ -71,6 +71,10 @@
     background-color: #fff6e0;
     @include linear-gradient(#fff6e0 10%, #fffcf5 20%, #fffcf5 90%, #fff6e0 100%);
 
+    .art {
+        white-space: nowrap;
+    }
+
     &.animating {
         .letter {
             @include animation(smoke 10s ease-in-out infinite);
