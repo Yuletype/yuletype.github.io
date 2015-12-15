@@ -17,6 +17,7 @@
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text:400italic);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 @import url(https://fonts.googleapis.com/css?family=Homemade+Apple|Alegreya+Sans:100,500);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
 
 /*
     Classes
@@ -98,7 +99,7 @@
   }
 }
 
-.dosis{
+.dosis {
   font-family: 'Dosis', sans-serif;
 }
 
@@ -113,4 +114,9 @@
 .crimson {
   font-family: 'Crimson Text', serif;
   font-style: normal;
+}
+
+.baskerville {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
 }
