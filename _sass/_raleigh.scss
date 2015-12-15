@@ -25,3 +25,65 @@
         }
     }
 }
+
+#day14 {
+    background-image: url(/images/grinch-bkgd.gif);
+    background-size: cover;
+
+    .byline {
+        color: #ffffff;
+    }
+
+    &.panel > .art {
+        width: 1200px;
+
+        h2 {
+            color: #fff;
+            font-size: 30px;
+            letter-spacing: .02em;
+        }
+
+        .line1 {
+            margin-left: 180px;
+        }
+
+        .line2 {
+            margin-left: 200px;
+        }
+
+        .line3 {
+            margin-left: 220px;
+        }
+
+        .line4 {
+            margin-left: 370px;
+        }
+
+        .line5 {
+            margin-left: 380px;
+        }
+
+        .line6 {
+            margin-left: 360px;
+        }
+
+        .montserrat {
+            font-size: 100px;
+            color: #FFE200;
+            letter-spacing: .02em;
+            text-transform: uppercase;
+            text-align: center;
+            text-align: center;
+            margin-bottom: 40px;
+            margin-top: 40px;
+        }
+
+        .underline {
+            color: #FFE200;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 26px;
+        }
+    }
+}
