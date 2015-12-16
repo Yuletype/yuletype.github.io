@@ -49,6 +49,18 @@
     font-family: 'Playfair Display SC', serif;
     font-style: italic;
     font-weight: 400;
+    &.italic {
+      font-style: italic;
+    }
+    &.bold {
+      font-weight: 700;
+    }
+    &.reg {
+      font-weight: 400;
+    }
+    &.ultra-bold {
+      font-weight: 900;
+    }
 }
 
 .pt-sans {
@@ -124,6 +136,17 @@
 
 .alegreya {
   font-family: 'Alegreya', serif;
+  &.bold {
+    font-weight: 700;
+  }
+}
+
+.montserrat {
+  font-family: "Montserrat",sans-serif;
+  font-style: normal;
+  &.reg {
+    font-weight: 400;
+  }
   &.bold {
     font-weight: 700;
   }
