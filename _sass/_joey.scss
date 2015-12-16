@@ -62,12 +62,12 @@
             border: solid 5px #000000;
             margin: 0 auto;
 
-            @media (max-width: 1440px) {
-                width: 436px;
-                height: 582px;
+            @media (max-width: 1680px) {
+                width: 406px;
+                height: 542px;
             }
 
-            @media (min-width: 1441px) {
+            @media (min-width: 1681px) {
                 width: 600px;
                 height: 802px;
             }
@@ -78,9 +78,9 @@
                 top: 340px;
                 left: 220px;
 
-                @media (max-width: 1440px) {
+                @media (max-width: 1680px) {
                     font-size: 65px;
-                    top: 238px;
+                    top: 222px;
                     left: 140px;
                 }
             }
