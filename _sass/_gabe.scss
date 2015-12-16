@@ -1,6 +1,9 @@
 $gabe-red: #EC384E;
 $gabe-green: #086A55;
 
+$gabe-red-2: #e2493c;
+$gabe-green-2: #6fb983;
+
 #day4 {
     background: $gabe-green;
     &.panel > .art {
@@ -22,6 +25,49 @@ $gabe-green: #086A55;
             text-align: center;
             color: $gabe-red;
             @include transform(translateX(-50%) translateY(-50%));
+        }
+    }
+}
+
+#day14 {
+    background: #6fb983;
+    color: $gabe-red-2;
+    &.panel > .art {
+        left: 60px;
+        top: 50%;
+        right: 60px;
+        @include transform(translateX(0) translateY(-50%));
+        .tree {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            width: 20px;
+            height: 40px;
+            background-image: url(/images/gabe-tree.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            @include transform(translateY(-50%));
+        }
+        p {
+            margin: 0;
+            font-size: 28px;
+            line-height: 42px;
+        }
+        .drop-cap {
+            background: #e2493c;
+            border-radius: 2px;
+            color: #6fb983;
+            display: inline-block;
+            height: 20px;
+            border: 1px solid red;
+            padding: 10px 10px 20px 10px;
+        }
+        .attribution {
+            @include transform(translateX(200px));
+            display: inline-block;
+            font-size: 24px;
+            font-weight: 700;
+            font-style: italic;
         }
     }
 }
