@@ -8,6 +8,10 @@
             if (today.classList.contains('animating')) {
                 today.classList.remove('animating');
             }
+        } else if (pageYOffset > today.offsetTop - today.offsetHeight) {
+            if (today.classList.contains('animating')) {
+                today.classList.remove('animating');
+            }
         }
     }
     function animateText() {
