@@ -22,6 +22,9 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya);
 @import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
 @import url(https://fonts.googleapis.com/css?family=Sacramento);
+@import url(https://fonts.googleapis.com/css?family=Bowlby+One+SC);
+@import url(https://fonts.googleapis.com/css?family=Pompiere);
+
 
 /*
     Classes
@@ -153,4 +156,11 @@
   &.bold {
     font-weight: 700;
   }
+}
+
+.bowlby {
+  font-family: 'Bowlby One SC', cursive;
+}
+.pompiere{
+font-family: 'Pompiere', cursive;
 }
