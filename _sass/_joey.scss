@@ -87,3 +87,43 @@
         }
     }
 }
+
+#day14 {
+    &.panel {
+        background: url('../images/turtle-doves-bg.jpg') no-repeat center center;
+        background-size: cover;
+
+        .birds {
+            width: 500px;
+            position: absolute;
+            top: 50%;
+            left: 175px;
+            transform: translateY(-50%);
+        }
+    }
+    &.panel > .text-wrapper {
+        position: absolute;
+        right: 500px;
+        width: 300px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &.panel .art {
+        width: 100%;
+        position: relative;
+
+        p {
+            font-size: 41px;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .homemade-apple {
+            position: absolute;
+            bottom: -110px;
+            right: -120px;
+            font-size: 80px;
+            color: #eaff98;
+        }
+    }
+}
