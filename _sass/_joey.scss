@@ -62,12 +62,12 @@
             border: solid 5px #000000;
             margin: 0 auto;
 
-            @media (max-width: 1440px) {
-                width: 436px;
-                height: 582px;
+            @media (max-width: 1680px) {
+                width: 406px;
+                height: 542px;
             }
 
-            @media (min-width: 1441px) {
+            @media (min-width: 1681px) {
                 width: 600px;
                 height: 802px;
             }
@@ -78,11 +78,78 @@
                 top: 340px;
                 left: 220px;
 
-                @media (max-width: 1440px) {
+                @media (max-width: 1680px) {
                     font-size: 65px;
-                    top: 238px;
+                    top: 222px;
                     left: 140px;
                 }
+            }
+        }
+    }
+}
+
+#day17 {
+    &.panel {
+        background: url('../images/turtle-doves-bg.jpg') no-repeat center center;
+        background-size: cover;
+
+        & > .art {
+            width: 35%;
+            max-width: 900px;
+            min-width: 820px;
+            height: 100%;
+
+            @media (max-width: 1024px) {
+                width: 70%;
+            }
+        }
+
+        .birds {
+            width: 500px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+
+            @media (max-width: 1024px) {
+                width: 200px;
+                top: 40%;
+                bottom: 0;
+                right: 0;
+                left: auto;
+            }
+        }
+
+        .text-wrapper {
+            position: relative;
+        }
+
+        .text {
+            width: 300px;
+            position: absolute;
+            top: 50%;
+
+            transform: translateY(-50%);
+            right: 0;
+
+            p {
+                position: relative;
+                font-size: 41px;
+                font-weight: 600;
+                color: #fff;
+            }
+
+            .homemade-apple {
+                position: absolute;
+                bottom: -110px;
+                right: -120px;
+                font-size: 80px;
+                color: #eaff98;
+            }
+
+            @media (max-width: 1024px) {
+                width: 300px;
+                right: auto;
             }
         }
     }

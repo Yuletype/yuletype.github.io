@@ -19,6 +19,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 @import url(https://fonts.googleapis.com/css?family=Homemade+Apple|Alegreya+Sans:100,500);
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Homemade+Apple);
 @import url(https://fonts.googleapis.com/css?family=Alegreya);
 @import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
 @import url(https://fonts.googleapis.com/css?family=Sacramento);
@@ -140,6 +141,14 @@
     font-weight: 400;
 }
 
+.amatic {
+    font-family: 'Amatic SC', cursive;
+}
+
+.homemade-apple {
+    font-family: 'Homemade Apple', cursive;
+}
+
 .alegreya {
   font-family: 'Alegreya', serif;
   &.bold {
@@ -159,8 +168,9 @@
 }
 
 .bowlby {
-  font-family: 'Bowlby One SC', cursive;
+    font-family: 'Bowlby One SC', cursive;
 }
-.pompiere{
-font-family: 'Pompiere', cursive;
+
+.pompiere {
+    font-family: 'Pompiere', cursive;
 }
