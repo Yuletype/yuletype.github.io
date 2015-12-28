@@ -87,3 +87,43 @@
         }
     }
 }
+
+#day21 {
+    background-image: url(/images/mountains.jpg);
+    background-size: cover;
+    background-position: center center;
+    .byline {
+        color: #ffffff;
+    }
+    .day{
+        color: #7D6C5B;
+        border: 3px solid;
+    }
+    &.panel > .art {
+        top: 45%;
+        max-width: 430px;
+        .bowlby{
+            color: #749071;
+            text-align: center;
+            line-height: 40px;
+            font-size: 45px;
+            letter-spacing: .02em;
+  }
+        .pompiere{
+            color: #C6B08D;
+            text-align: center;
+          }
+        .pick{
+            position: absolute;
+            right: 44%;
+            width: 50px;
+            height: 40px;
+            background-image: url(/images/pick.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            @include transform(translateY(-50%));
+        }
+
+        
+    }
+}
